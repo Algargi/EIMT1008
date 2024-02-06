@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c77f6b25-b5c8-49b5-836b-02308d75f4a9" name="Changes" comment="" />
+    <list default="true" id="c77f6b25-b5c8-49b5-836b-02308d75f4a9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practica1/Ejercicio6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practica1/Ejercicio6.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +61,7 @@
     "Application.Ejercicio3.executor": "Run",
     "Application.Ejercicio4.executor": "Run",
     "Application.Ejercicio5.executor": "Run",
+    "Application.Ejercicio6.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -72,21 +76,6 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="EIMT1008" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="EIMT1008" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -106,6 +95,8 @@
       <workItem from="1706964902800" duration="3893000" />
       <workItem from="1706974059633" duration="167000" />
       <workItem from="1707161598309" duration="4018000" />
+      <workItem from="1707245539648" duration="447000" />
+      <workItem from="1707245997064" duration="1235000" />
     </task>
     <servers />
   </component>
