@@ -22,7 +22,7 @@ public class Ejercicio4 {
             }
         }
         int tam = lista.size();
-        System.out.print("Los números primos menores que 23 son: ");
+        System.out.print("Los números primos menores que"+num+" son: ");
         for (int i = 0; i < tam; i++) {
             System.out.print(lista.get(i) + " ");
         }

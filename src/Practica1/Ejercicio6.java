@@ -11,11 +11,16 @@ public class Ejercicio6 {
         for (int i = num-1; i >=1 ; i--) {
             boolean cond = false;
             int contadorDivisores = 0;
+            int divisoresAnterior;
+
             for (int j = 1;  j < i;  j++) {
                 if (i%j ==0){
                     contadorDivisores++;
                 }
             }
+            divisoresAnterior = contadorDivisores;
+//            if()
+
         }
     }
 }
