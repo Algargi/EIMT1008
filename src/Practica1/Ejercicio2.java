@@ -10,9 +10,6 @@ public class Ejercicio2 {
         int resto = num % 2;
         int valorSumar = 0;
         int resultado = 1;
-//        if (num == 0 || num == 1) {
-//            resultado = 1;
-//        } else {
             if (resto == 0) {
                 valorSumar = 2;
             } else if (resto == 1) {
@@ -20,11 +17,7 @@ public class Ejercicio2 {
             }
             for (; valorSumar <= num; valorSumar += 2) {
                 resultado *= valorSumar;
-
             }
-        //}
-
         System.out.println(num+"!! = "+resultado);
-
     }
 }
