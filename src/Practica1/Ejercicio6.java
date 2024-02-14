@@ -4,23 +4,23 @@ import java.util.Scanner;
 
 public class Ejercicio6 {
     public static void main(String[] args) {
-        //NO SE, NO QUIERO PENSAR MÁS
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce un número entero: ");
         int num = sc.nextInt();
-        for (int i = num-1; i >=1 ; i--) {
-            boolean cond = false;
-            int contadorDivisores = 0;
-            int divisoresAnterior;
-
-            for (int j = 1;  j < i;  j++) {
-                if (i%j ==0){
-                    contadorDivisores++;
+        int divAnterior = 0;
+        int numeroFinal = 0;
+        for (int i = 1; i < num; i++) {
+            int contadorDiv = 0;
+            for (int j = 1; j <= i; j++) {
+                if (i % j == 0) {
+                    contadorDiv++;
                 }
             }
-            divisoresAnterior = contadorDivisores;
-//            if()
-
+            if(contadorDiv>= divAnterior){
+                divAnterior = contadorDiv;
+                numeroFinal = i;
+            }
         }
+        System.out.println("El número con más divisores es "+numeroFinal+" ("+divAnterior+" divisores)");
     }
 }
